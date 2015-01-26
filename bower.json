@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "authors": [
+    "Adam Presley <adam@adampresley.com>"
+  ],
+  "license": "GNU GPLv2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Grapnel.js": "~0.5.1",
+    "handlebars": "~2.0.0"
+  }
+}
