@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/adampresley/portfolio/controllers"
-	"github.com/adampresley/portfolio/global"
+	//	"github.com/adampresley/portfolio/global"
 	"github.com/adampresley/portfolio/middleware"
 
 	"github.com/gorilla/mux"
@@ -43,7 +43,7 @@ func setupHttpRouter() http.Handler {
 	router.PathPrefix("/assets/").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("./www/assets"))))
 
 	/* Home */
-	router.HandleFunc("/", homeController.Index).Methods("GET")
+	router.HandleFunc("/", controllers.Index).Methods("GET")
 
 	return router
 }

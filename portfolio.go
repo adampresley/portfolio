@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/adampresley/portfolio/global"
+	//	"github.com/adampresley/portfolio/global"
 	"github.com/adampresley/portfolio/listener"
 	"github.com/adampresley/portfolio/services/environmentService"
 )

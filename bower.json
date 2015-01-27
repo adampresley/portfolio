@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "Grapnel.js": "~0.5.1",
-    "handlebars": "~2.0.0"
+    "handlebars": "~2.0.0",
+    "materialize": "~0.95.1"
   }
 }
