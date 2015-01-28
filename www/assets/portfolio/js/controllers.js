@@ -1,10 +1,5 @@
-/**
- * Controller for the index page
- */
-controllers.IndexController = {
+controllers.ContactController = {
 	index: function(request) {
-		var self = this;
-
-		services.Util.render("home", {});
+		services.Util.render("contact", {});
 	}
 };

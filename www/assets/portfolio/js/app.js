@@ -1,7 +1,10 @@
 (function() {
 
 	window.router = Grapnel.listen({
-		"home": controllers.IndexController.index
+		"contact": controllers.ContactController.index
 	});
 
+	if (window.location.hash === "") {
+		window.router.navigate("contact");
+	}
 }());
