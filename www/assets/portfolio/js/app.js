@@ -5,6 +5,10 @@
 		"projects": controllers.ProjectController.index
 	});
 
+	window.router.bind("navigate", function(e) {
+		window.scrollTo(0, 0);
+	});
+
 	if (window.location.hash === "") {
 		window.router.navigate("contact");
 	}
