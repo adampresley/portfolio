@@ -2,7 +2,8 @@
 
 	window.router = Grapnel.listen({
 		"contact": controllers.ContactController.index,
-		"projects": controllers.ProjectController.index
+		"projects": controllers.ProjectController.index,
+		"skills": controllers.SkillsController.index
 	});
 
 	window.router.bind("navigate", function(e) {
