@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/adampresley/portfolio/listener"
 	"github.com/adampresley/portfolio/services/environmentService"
+	"github.com/adampresley/portfolio/services/listener"
 )
 
 func main() {

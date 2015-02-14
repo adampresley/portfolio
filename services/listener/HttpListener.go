@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/adampresley/portfolio/controllers"
-	"github.com/adampresley/portfolio/middleware"
+	"github.com/adampresley/portfolio/services/middleware"
 
 	"github.com/gorilla/mux"
 	"github.com/justinas/alice"
